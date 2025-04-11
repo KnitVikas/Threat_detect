@@ -1,0 +1,71 @@
+# Ignore OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore editor and IDE files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore Node.js dependencies and build files
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+*.log
+
+# Ignore Python bytecode and virtual environments
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+venv/
+env/
+.venv/
+
+# Ignore compiled files and binaries
+*.class
+*.exe
+*.dll
+*.so
+*.o
+*.out
+*.app
+*.csv
+
+# Ignore dependency directories
+jspm_packages/
+bower_components/
+venv
+
+# Ignore debug logs
+*.log
+logs/
+
+# Ignore environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore package lock files (if not needed)
+package-lock.json
+yarn.lock
+
+# Ignore temporary files
+tmp/
+temp/
